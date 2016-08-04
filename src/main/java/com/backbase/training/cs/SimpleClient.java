@@ -21,7 +21,7 @@ public class SimpleClient {
         connProps.put(SessionParameter.ATOMPUB_URL, "http://localhost:7777/portalserver/content/atom");
         connProps.put(SessionParameter.USER, "admin");
         connProps.put(SessionParameter.PASSWORD, "admin");
-        connProps.put(SessionParameter.REPOSITORY_ID,"ad4a53ad-fe45-4519-9b9c-cd50452efee2");
+        connProps.put(SessionParameter.REPOSITORY_ID,"contentRepository");
 
         SessionFactory factory = SessionFactoryImpl.newInstance();
         Session session = factory.createSession(connProps);
