@@ -18,7 +18,7 @@ public class SimpleClient {
         Map<String, String> connProps = new HashMap<>();
 
         connProps.put(SessionParameter.BINDING_TYPE,"atompub");
-        connProps.put(SessionParameter.ATOMPUB_URL, "http://localhost:7777/portalserver/content/atom");
+        connProps.put(SessionParameter.ATOMPUB_URL, "http://localhost:8082/contentservices/atom");
         connProps.put(SessionParameter.USER, "admin");
         connProps.put(SessionParameter.PASSWORD, "admin");
         connProps.put(SessionParameter.REPOSITORY_ID,"contentRepository");
